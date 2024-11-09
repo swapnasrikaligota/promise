@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     Promises with different examples.
+    <script>
+
+       
+      //example-1
+
+       // let promise = new Promise (function(resolve,reject){
+         //   let i= 199
+           // if (i<=200){
+            //    resolve("numbers is less than or equal to 200");
+            
+           // }
+           // else{
+             //   reject("condition false");
+           // }
+       // })
+       // console.log(promise)
+    
+    
+
+      //example-2
+
+      //  let promise = new Promise (function(res,rej){
+        //   
+          //  file = "nimmy.js"
+          //  req ="Doc"
+           //  if (file="nimmy.js"&& req==="Doc"){
+            //    res("File existed")
+            // }else{
+              //  rej("File not found")
+            // }
+       // })
+      //  promise.then((output)=>{
+        //    console.log(output)
+       // }).catch((outcome)=>{
+         //   console.log(outcome)
+       // }).finally(()=>{
+         //   console.log("")
+       /// })
+
+    
+
+        //example-3
+
+           let promise = new Promise(function(myres,myrej){
+            girl= "kitty"
+            boy ="Doramon"
+
+             if (girl="Kitty"&& boy=="Dora"){
+                myres("Accept")
+             } else{
+                myrej("Reject")
+             }
+           })
+           promise.then(()=>{
+            console.log("I love you")
+           }).catch(()=>{
+            console.log("Not interested")
+           })
+    </script>
+</body>
+</html>
